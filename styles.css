@@ -11,7 +11,7 @@ main{
 }
 body {
   height: 100%;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   font-family: 'Merriweather', serif;
   background-color: #EF7E39;
@@ -185,6 +185,10 @@ footer{
   overflow: hidden;
   width: 144px;
 }
+#footer a:hover {
+  color: blue;
+  cursor: pointer;
+}
 .top{
   display: flex;
   justify-content: center;
@@ -198,9 +202,9 @@ footer{
   grid-area: "top";
 }
 .top img{
-  width: 250px;
-  height: 400px;
-  padding: 20px 0px 20px 24px;
+  width: 400px;
+  height: 500px;
+  /* padding: 20px 0px 20px 24px; */
 }
 .top h2{
   font-size: 34px;
