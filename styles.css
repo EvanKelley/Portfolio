@@ -144,9 +144,9 @@ ul li a:hover {
  nav .hamburger {
     display: none;
   }
-  nav ul.nav-list {
-    /* display: flex; */
-  }
+  /* nav ul.nav-list {
+    display: flex;
+  } */
 }
 
 /* FOOTER / CONNECT  */
