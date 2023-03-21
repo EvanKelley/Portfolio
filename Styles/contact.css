@@ -189,3 +189,10 @@ footer{
   color: #F2B53B;
   cursor: pointer;
 }
+
+/* CONTACT SPECIFIC  */
+
+.contact img{
+  width: auto;
+  height: 500px;
+}
