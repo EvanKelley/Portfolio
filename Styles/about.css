@@ -68,6 +68,7 @@ ul li a:hover {
   margin: 50px auto;
   transform: rotate(0deg);
   transition: all 300ms ease-in-out;
+  z-index: 3;
 }
 .hamburger span {
   display: block;
@@ -138,6 +139,10 @@ ul li a:hover {
     color: white;
     font-size: 2em;
     box-shadow: -7px -1px 13px 0px rgba(0, 0, 0, 0.22);
+    z-index: 2;
+  }
+  h2{
+    display: 20px;
   }
 }
 @media (min-width: 945px) {
@@ -157,9 +162,9 @@ header .logo h1{
   margin: 0;
   background-color: #782F62;
   color: #ffffff;
-  padding: 20px 10px 20px 50px;
+  padding: 20px 10px 0px 50px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 40px;
+  font-size: 38px;
 }
 footer{
   height: 90px;
