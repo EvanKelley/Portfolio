@@ -17,3 +17,5 @@ $("h2").hover(
     this.animation.reverse();
   }
 );
+
+console.log($("h2"))
