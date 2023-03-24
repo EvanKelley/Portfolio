@@ -244,3 +244,7 @@ footer{
 #footer svg{
   color: #ffffff;
 }
+
+#footer svg:hover{
+  color: #F2B53B;
+}
