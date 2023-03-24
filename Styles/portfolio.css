@@ -4,6 +4,10 @@ main{
   display: grid;
 }
 
+.nav-list li{
+  padding: 20px;
+}
+
 /* HEADER/NAV BAR/ BURGER */
 *{
   margin: 0;
@@ -139,14 +143,27 @@ ul li a:hover {
     font-size: 2em;
     box-shadow: -7px -1px 13px 0px rgba(0, 0, 0, 0.22);
   }
+  header .logo h1{
+    margin: 0;
+    background-color: #782F62;
+    color: #ffffff;
+    padding: 20px 10px 0px 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+  }
 }
 @media (min-width: 945px) {
  nav .hamburger {
     display: none;
   }
-  /* nav ul.nav-list {
-    display: flex;
-  } */
+  header .logo h1{
+    margin: 0;
+    background-color: #782F62;
+    color: #ffffff;
+    padding: 20px 10px 30px 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+  }
 }
 
 /* FOOTER / CONNECT  */

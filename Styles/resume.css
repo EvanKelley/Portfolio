@@ -4,6 +4,10 @@ main{
   display: grid;
 }
 
+.nav-list li{
+  padding: 20px;
+}
+
 /* HEADER/NAV BAR/ BURGER */
 *{
   margin: 0;
@@ -149,9 +153,22 @@ ul li a:hover {
  nav .hamburger {
     display: none;
   }
-  /* nav ul.nav-list {
-    display: flex;
-  } */
+  header .logo h1{
+    margin: 0;
+    background-color: #782F62;
+    color: #ffffff;
+    padding: 20px 10px 30px 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+  }
+  header .logo h1{
+    margin: 0;
+    background-color: #782F62;
+    color: #ffffff;
+    padding: 20px 10px 0px 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+  }
 }
 
 /* FOOTER / CONNECT  */
