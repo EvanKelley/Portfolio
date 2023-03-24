@@ -193,6 +193,40 @@ footer{
 /* CONTACT SPECIFIC  */
 
 .contact-img{
-  width: auto;
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-fluid{
+  max-width: 600px;
+  width: 100%;
+}
+.contact h2{
+  padding: 20px;
+}
+
+.contact p{
+  font-size: 22px;
+}
+
+#github svg{
+  color: #782f62;
+}
+
+#linkedin svg{
+  color: #782f62;
+}
+
+#github svg:hover {
+  color: #3393a6;
+  cursor: pointer;
+}
+
+#linkedin svg:hover {
+  color: #3393a6;
+  cursor: pointer;
+}
+
+#footer svg{
+  color: #ffffff;
 }
